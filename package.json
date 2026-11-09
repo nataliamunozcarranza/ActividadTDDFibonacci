@@ -1,0 +1,28 @@
+{
+  "name": "actividadtddfibonacci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run", "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliamunozcarranza/ActividadTDDFibonacci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliamunozcarranza/ActividadTDDFibonacci/issues"
+  },
+  "homepage": "https://github.com/nataliamunozcarranza/ActividadTDDFibonacci#readme",
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "chalk": "^6.0.1"
+  }
+
+}
