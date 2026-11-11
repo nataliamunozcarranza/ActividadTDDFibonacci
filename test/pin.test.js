@@ -15,10 +15,10 @@ describe('esPinValido', () => {
   });
 
   it.each(['12a4', '12 4', '12.456', '12-456'])('%s contiene no dígitos', (pin) => {
-    expect(esPinValido(pin).toBe(false);
+    expect(esPinValido(pin)).toBe(false);
   });
 
   it.each(['1111', '888888', '0000'])('%s tiene todos los dígitos iguales', (pin) => {
-    expect(esPinValido(pin).toBe(false);
+    expect(esPinValido(pin)).toBe(false);
   });
 });
